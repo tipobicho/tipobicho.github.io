@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceiros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color:rgb(75, 75, 238);
+            margin-bottom: 40px;
+        }
+
+        .partners-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .partner-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .partner-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .partner-logo img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .partner-name {
+            font-size: 18px;
+            color: #555;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nossos Parceiros</h1>
+
+    <div class="partners-container">
+        <!-- Parceiro 1 -->
+        <div class="partner-box">
+            <div class="partner-logo">
+                <img src="mad.png" alt="Madicare Angola 1">
+            </div>
+            <div class="partner-name">Madicare Angola</div>
+        </div>
+
+        <!-- Parceiro 2 -->
+        <div class="partner-box">
+            <div class="partner-logo">
+                <img src="lan.png" alt="Parceiro 2">
+            </div>
+            <div class="partner-name">Sanlam Seguros</div>
+        </div>
+
+        <!-- Parceiro 3 -->
+        <div class="partner-box">
+            <div class="partner-logo">
+                <img src="Mediplus.png" alt="Parceiro 3">
+            </div>
+            <div class="partner-name">Mediplus</div>
+        </div>
+
+        <!-- Parceiro 4 -->
+        <div class="partner-box">
+            <div class="partner-logo">
+                <img src="vaplus.png" alt="Parceiro 4">
+            </div>
+            <div class="partner-name">Vantagem Plus</div>
+        </div>
+    </div>
+
+</body>
+</html>
